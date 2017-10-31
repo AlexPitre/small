@@ -10,4 +10,5 @@ void loop()
 {
   int piezoADC = analogRead(PIEZO_PIN);
   Serial.println(piezoADC); 
+  delay (25);
 }
